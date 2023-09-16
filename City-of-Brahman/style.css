@@ -1,0 +1,90 @@
+/* i tried to go through and turn each line of text white by style, color white instead of just coming in here and doing it as such lol */
+
+/* inline works easier for me than editing in css for some reason...*/
+
+body {
+  background-color: black;
+  background-image: "Sephirot.png"
+  
+  
+}
+
+p {
+
+  text-align: center;
+
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center
+  
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+/* list style position helped center these bullets 'cause the position set to outside by default */
+li {
+
+  text-align: center;
+  list-style-position: inside;
+  color: white;
+}
+/* FINALLY made the navbar decent once i got rid of lists and kept it simple, thank you office hours & w3schools */
+.lip {
+  overflow: hidden
+  
+}
+
+.lip a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.lip a:hover {
+  background-color: purple;
+  color: black;
+}
+
+
+form {
+  color: purple;
+  text-color: white;
+  border-style: solid;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* centered all the images to keep it uniform */
+
+.centers {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: purple;
+}
+
+/* figured out how to keep it from repeating with the no  repeat*/
+footer {
+
+  background-image: "eye.jpg";
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
